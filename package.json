@@ -1,26 +1,20 @@
 {
   "name": "rxjs",
   "version": "1.0.0",
-  "description": "RXJS Implementation",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node ./src/index.ts"
+    "start": "node ./examples.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rahu1NK/RXJS.git"
+    "url": "git+https://github.com/Rahul-nk1/RXJS.git"
   },
-  "author": "",
+  "author": "Rahul NK",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rahu1NK/RXJS/issues"
+    "url": "https://github.com/Rahul-nk1/RXJS/issues"
   },
-  "homepage": "https://github.com/Rahu1NK/RXJS#readme",
-  "devDependencies": {
-    "typescript": "^4.8.4"
-  },
-  "dependencies": {
-    "ts-node": "^10.9.1"
-  }
+  "homepage": "https://github.com/Rahul-nk1/RXJS#readme"
 }
