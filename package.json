@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./examples.js"
+    "start": "node ./examples.js",
+    "whotofollow": "parcel ./whotofollow/index.html --open"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/Rahul-nk1/RXJS/issues"
   },
-  "homepage": "https://github.com/Rahul-nk1/RXJS#readme"
+  "homepage": "https://github.com/Rahul-nk1/RXJS#readme",
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "parcel": "^2.8.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0"
+  }
 }
